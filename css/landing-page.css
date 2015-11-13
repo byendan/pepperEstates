@@ -62,10 +62,14 @@ h6 {
     }
 
 .dandp {
-    padding-top: 60%;
-    padding-bottom: 40%;
-    
+    border: solid 1px black;
     border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.dan-pic-quote {
+    margin-top: 10%;  
 }
 
 @media(max-width:767px) {
@@ -103,6 +107,13 @@ h6 {
     .dandp {
         border: solid 1px black;   
     }
+    
+    .g-map {
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    
     
 }
 
@@ -193,4 +204,30 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.head-cont {
+    margin-top: 70px;   
+}
+
+.contact-head{
+    text-align: center;
+}
+
+.contact-line {
+    width: 40%; 
+    border-color: #c4b9b9;
+}
+
+.contact-address, .contact-numbers, .contact-email {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-email {
+    margin-bottom: 20px;   
+}
+
+.g-map {
+    margin-bottom: 20px;   
 }
