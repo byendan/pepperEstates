@@ -206,15 +206,15 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-.head-cont {
+.head-cont, .serv-cont {
     margin-top: 70px;   
 }
 
-.contact-head{
+.contact-head, .serv-head{
     text-align: center;
 }
 
-.contact-line {
+.contact-line, .serv-line {
     width: 40%; 
     border-color: #c4b9b9;
 }
