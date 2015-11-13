@@ -53,9 +53,13 @@ h6 {
     font-size: 5em;
 }
 
-.intro-message > h3 {
+.intro-message > h3, h4 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
+
+.intro-message hr {
+         width: 50%;
+    }
 
 .dandp {
     padding-top: 60%;
@@ -85,6 +89,10 @@ h6 {
     .intro-message > h1 {
         font-size: 3em;
     }
+    
+   .intro-message hr {
+         width: 80%;
+    } 
     
     .pep-front, .pep-fam, .dandp {
     margin-left: auto;
@@ -144,7 +152,8 @@ h6 {
 
 .banner-social-buttons {
     float: left;
-    margin-top: 0;
+    margin: 20px;
+
 }
 
 .banner-social-buttons .btn:hover {
@@ -162,14 +171,18 @@ h6 {
         font-size: 3em;
     }
 
+
+    
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
+        
         padding: 0;
     }
 
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
+        
     }
 }
 
