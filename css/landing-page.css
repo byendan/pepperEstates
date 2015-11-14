@@ -220,11 +220,11 @@ p.copyright {
     margin-top: 70px;   
 }
 
-.contact-head, .serv-head{
+.contact-head, .serv-head, .res-head{
     text-align: center;
 }
 
-.contact-line, .serv-line {
+.contact-line, .serv-line, res-line {
     width: 40%; 
     border-color: #c4b9b9;
 }
@@ -265,4 +265,8 @@ p.copyright {
 
 .serv-lead {
     padding-top: 15px;   
+}
+
+.list-group-item-heading {
+    text-shadow: none;
 }
