@@ -270,3 +270,8 @@ p.copyright {
 .list-group-item-heading {
     text-shadow: none;
 }
+
+.list-group-item-heading:hover {
+    text-decoration: none;
+    
+}
