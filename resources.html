@@ -105,9 +105,9 @@
                     </ul>
                     <h3>Healthcare Resource</h3>
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="http://www.alz.org"><h3 class="list-group-item-heading">Alzheimer’s Association</h3><p class="list-group-item-text">Provides useful information about Alzheimer’s Disease, discussing both medical and public issues.</p></a></li>
-                        <li class="list-group-item"><a href="http://www.apdaparkinson.org/"><h3 class="list-group-item-heading">American Parkinson’s Disease Association</h3><p class="list-group-item-text">List of resources and ways to get involved in finding a cure for Parkinson's</p></a></li>
-                        <li class="list-group-item"><a href="http://www.apdaparkinson.org/"><h3 class="list-group-item-heading">National Stroke Association</h3><p class="list-group-item-text">Information for those who have had a stroke, or those taking care of someone who has one.</p></a></li>
+                        <li class="list-group-item"><a href="http://www.alz.org"><h4 class="list-group-item-heading">Alzheimer’s Association</h4><p class="list-group-item-text">Provides useful information about Alzheimer’s Disease, discussing both medical and public issues.</p></a></li>
+                        <li class="list-group-item"><a href="http://www.apdaparkinson.org/"><h4 class="list-group-item-heading">American Parkinson’s Disease Association</h4><p class="list-group-item-text">List of resources and ways to get involved in finding a cure for Parkinson's</p></a></li>
+                        <li class="list-group-item"><a href="http://www.apdaparkinson.org/"><h4 class="list-group-item-heading">National Stroke Association</h4><p class="list-group-item-text">Information for those who have had a stroke, or those taking care of someone who has one.</p></a></li>
                     </ul>
                 </div>
             </div>
@@ -149,6 +149,21 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+        
+        
+    <script>
+
+$( ".list-group-item" )
+  .mouseover(function() {
+    $(this).addClass("active");
+    $(this).children().css('color', 'white');
+  })
+  .mouseout(function() {
+    $(this).removeClass("active");
+    $(this).children().css('color', '#337eb7');
+  });
+
+</script>
     
     </body>
 

@@ -271,7 +271,13 @@ p.copyright {
     text-shadow: none;
 }
 
-.list-group-item-heading:hover {
+.list-group-item:hover {
     text-decoration: none;
-    
+    color: white;
+
+}
+
+.list-group-item a:hover {
+    text-decoration: none;  
+    color: white;
 }
