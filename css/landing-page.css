@@ -37,7 +37,8 @@ h6 {
     background: url(../img/OceanReadBanner.png) no-repeat center center;
     background-size: contain;
     padding-bottom: 0;
-    height: 80%;
+    background-position: center;
+    background-size: 100%;
 
 }
 
